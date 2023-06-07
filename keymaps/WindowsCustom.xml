@@ -15,6 +15,11 @@
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+    <mouse-shortcut keystroke="control alt button1" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="KotlinShellExecute" />
   <action id="SplitChooser.Duplicate" />
   <action id="Terminal.SmartCommandExecution.Debug" />
