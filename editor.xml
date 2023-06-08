@@ -1,5 +1,25 @@
 <application>
+  <component name="CodeVisionSettings">
+    <option name="codeVisionGroupToPosition">
+      <map>
+        <entry key="inheritors" value="Default" />
+        <entry key="problems" value="Default" />
+        <entry key="references" value="Default" />
+        <entry key="vcs.code.vision" value="Default" />
+      </map>
+    </option>
+  </component>
   <component name="EditorSettings">
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="kotlin.kotlin.values.hints.kotlin.values.ranges" />
+    <settingsMapElement>
+      <kotlin.kotlin.values.hints>
+        <Settings>
+          <option name="ranges" value="false" />
+        </Settings>
+      </kotlin.kotlin.values.hints>
+    </settingsMapElement>
   </component>
 </application>
