@@ -1,4 +1,9 @@
 <keymap version="1" name="WindowsCustom" parent="$default">
+  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Group.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Group.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="CIDR.Debugger.ShowInMemoryView" />
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
@@ -35,16 +40,26 @@
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="KotlinShellExecute" />
-  <action id="MoveLineDown" />
+  <action id="MethodDown" />
+  <action id="MethodUp" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="SendEOF" />
+  <action id="ShowContent" />
+  <action id="ShowSearchHistory" />
   <action id="SplitChooser.Duplicate" />
   <action id="Switcher" />
   <action id="Terminal.SmartCommandExecution.Debug" />
   <action id="Terminal.SmartCommandExecution.Run" />
   <action id="UpdateRunningApplication" />
+  <action id="UsageView.ShowRecentFindUsages" />
   <action id="ViewSource" />
   <action id="XDebugger.MoveWatchDown" />
   <action id="android.deploy.ApplyChanges">
