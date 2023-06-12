@@ -5,6 +5,9 @@
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="CIDR.Debugger.ShowInMemoryView" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift ctrl divide" />
     <keyboard-shortcut first-keystroke="shift alt a" />
@@ -30,6 +33,7 @@
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
+  <action id="EditorSelectWord" />
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -62,11 +66,13 @@
   <action id="SendEOF" />
   <action id="ShowContent" />
   <action id="ShowSearchHistory" />
+  <action id="SmartSelect" />
   <action id="SplitChooser.Duplicate" />
   <action id="Switcher" />
   <action id="Terminal.SmartCommandExecution.Debug" />
   <action id="Terminal.SmartCommandExecution.Run" />
   <action id="UpdateRunningApplication" />
+  <action id="UsageFiltering.WriteAccess" />
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.Log.ShowAllAffected" />
   <action id="VcsHistory.ShowAllAffected" />
