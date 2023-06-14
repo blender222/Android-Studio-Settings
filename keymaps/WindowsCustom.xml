@@ -22,8 +22,20 @@
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.ShowDiff" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
   <action id="EditorCompleteStatement" />
   <action id="EditorContextInfo" />
+  <action id="EditorCreateRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="button2" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
@@ -60,6 +72,12 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="ctrl alt f8" />
+  </action>
+  <action id="RunInspection" />
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -68,6 +86,9 @@
   <action id="ShowSearchHistory" />
   <action id="SmartSelect" />
   <action id="SplitChooser.Duplicate" />
+  <action id="StringManipulation.CreateSequenceAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt i" />
+  </action>
   <action id="Switcher" />
   <action id="Terminal.SmartCommandExecution.Debug" />
   <action id="Terminal.SmartCommandExecution.Run" />
