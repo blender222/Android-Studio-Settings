@@ -4,11 +4,11 @@
     <property name="created">2023-06-14T12:32:46</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2022.2.1.20</property>
-    <property name="modified">2023-06-14T13:27:35</property>
+    <property name="modified">2023-06-14T13:33:12</property>
     <property name="originalScheme">One Dark</property>
   </metaInfo>
-  <option name="CONSOLE_FONT_NAME" value="Hack Nerd Font" />
-  <option name="CONSOLE_LINE_SPACING" value="1.2" />
+  <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
+  <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="98c379" />
     <option name="ANNOTATIONS_COLOR" value="a0a7b4" />
