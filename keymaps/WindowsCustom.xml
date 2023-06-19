@@ -4,7 +4,12 @@
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl alt z" />
+  </action>
   <action id="CIDR.Debugger.ShowInMemoryView" />
+  <action id="ChangesView.Revert" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -58,6 +63,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl alt x" />
+  </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
     <mouse-shortcut keystroke="control alt button1" />
@@ -78,6 +87,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt f8" />
   </action>
   <action id="RunInspection" />
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="alt f1" />
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -96,6 +109,7 @@
   <action id="UsageFiltering.WriteAccess" />
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.Log.ShowAllAffected" />
+  <action id="Vcs.RollbackChangedLines" />
   <action id="VcsHistory.ShowAllAffected" />
   <action id="ViewSource" />
   <action id="XDebugger.MoveWatchDown" />
