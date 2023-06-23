@@ -110,6 +110,9 @@
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="RunInspection" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="alt f1" />
