@@ -55,7 +55,8 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
-  <action id="EditorDuplicate">
+  <action id="EditorDuplicate" />
+  <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
   <action id="EditorIndentLineOrSelection">
