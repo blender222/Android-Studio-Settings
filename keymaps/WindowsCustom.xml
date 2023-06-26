@@ -121,6 +121,9 @@
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="alt w" second-keystroke="alt e" />
+  </action>
   <action id="RunInspection" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="alt f1" />
