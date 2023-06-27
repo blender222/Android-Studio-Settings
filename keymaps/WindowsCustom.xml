@@ -114,6 +114,10 @@
   <action id="QuickEvaluateExpression">
     <keyboard-shortcut first-keystroke="ctrl alt f8" />
   </action>
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
+    <keyboard-shortcut first-keystroke="alt u" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="alt f" />
@@ -141,6 +145,10 @@
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="ShowContent" />
+  <action id="ShowErrorDescription">
+    <keyboard-shortcut first-keystroke="ctrl f1" />
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
   <action id="ShowSearchHistory" />
   <action id="SmartSelect" />
   <action id="SplitChooser.Duplicate" />
