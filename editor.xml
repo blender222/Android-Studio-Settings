@@ -17,6 +17,7 @@
   <component name="EditorSettings">
     <option name="STRIP_TRAILING_SPACES" value="None" />
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <option name="IS_ANIMATED_SCROLLING" value="false" />
   </component>
   <component name="InlayHintsSettings">
     <option name="disabledHintProviderIds">
