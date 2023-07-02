@@ -150,6 +150,10 @@
   <action id="SaveDocument">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="alt f1" />
+    <keyboard-shortcut first-keystroke="alt back_quote" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -181,6 +185,7 @@
   <action id="UsageFiltering.WriteAccess" />
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.Log.ShowAllAffected" />
+  <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.RollbackChangedLines" />
   <action id="VcsHistory.ShowAllAffected" />
   <action id="ViewSource" />
