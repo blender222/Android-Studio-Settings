@@ -109,6 +109,10 @@
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt d" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
@@ -144,10 +148,6 @@
   <action id="SaveAll" />
   <action id="SaveDocument">
     <keyboard-shortcut first-keystroke="ctrl s" />
-  </action>
-  <action id="SelectIn">
-    <keyboard-shortcut first-keystroke="alt f1" />
-    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
