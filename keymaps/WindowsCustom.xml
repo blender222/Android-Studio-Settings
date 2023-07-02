@@ -126,6 +126,7 @@
     <mouse-shortcut keystroke="alt button2" />
     <keyboard-shortcut first-keystroke="alt u" />
   </action>
+  <action id="RecentFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="alt f" />
@@ -169,6 +170,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt i" />
   </action>
   <action id="Switcher" />
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Table-startEditing" />
   <action id="Terminal.SmartCommandExecution.Debug" />
   <action id="Terminal.SmartCommandExecution.Run" />
