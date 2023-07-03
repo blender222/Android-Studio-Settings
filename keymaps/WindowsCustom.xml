@@ -198,6 +198,10 @@
   <action id="UsageFiltering.WriteAccess" />
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.Log.ShowAllAffected" />
+  <action id="Vcs.Log.ShowTooltip">
+    <mouse-shortcut keystroke="alt button2" />
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
   <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.RollbackChangedLines" />
   <action id="VcsHistory.ShowAllAffected" />
