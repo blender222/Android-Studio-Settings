@@ -89,6 +89,7 @@
     <keyboard-shortcut first-keystroke="ctrl equals" />
     <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
   </action>
+  <action id="ExportToTextFile" />
   <action id="FileChooser.GotoDesktop" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
@@ -136,7 +137,7 @@
   </action>
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
-    <keyboard-shortcut first-keystroke="alt u" />
+    <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="RecentFiles" />
   <action id="ReformatCode">
@@ -210,4 +211,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
+  <action id="osmedile.intellij.stringmanip.ToLowerCaseAction">
+    <keyboard-shortcut first-keystroke="alt u" second-keystroke="alt j" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.ToUpperCaseAction">
+    <keyboard-shortcut first-keystroke="alt u" second-keystroke="alt u" />
+  </action>
 </keymap>
