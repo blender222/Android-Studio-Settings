@@ -25,6 +25,11 @@
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+  </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift ctrl divide" />
     <keyboard-shortcut first-keystroke="shift alt a" />
@@ -50,6 +55,8 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
+  <action id="EditorCodeBlockEndWithSelection" />
+  <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCompleteStatement" />
   <action id="EditorContextInfo" />
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
@@ -76,6 +83,11 @@
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift tab" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="Forward">
