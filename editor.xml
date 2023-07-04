@@ -24,9 +24,10 @@
       <set>
         <option value="kotlin.kotlin.call.chains.hints" />
         <option value="kotlin.kotlin.lambdas.hints" />
+        <option value="kotlin.kotlin.references.types.hints" />
       </set>
     </option>
-    <option name="lastViewedProviderKeyId" value="kotlin.kotlin.lambdas.hints" />
+    <option name="lastViewedProviderKeyId" value="kotlin.kotlin.references.types.hints" />
     <settingsMapElement>
       <kotlin.kotlin.values.hints>
         <Settings>
@@ -39,11 +40,6 @@
           <option name="returnExpressions" value="false" />
         </Settings>
       </kotlin.kotlin.lambdas.hints>
-      <kotlin.kotlin.references.types.hints>
-        <Settings>
-          <option name="localVariableType" value="true" />
-        </Settings>
-      </kotlin.kotlin.references.types.hints>
     </settingsMapElement>
   </component>
 </application>
