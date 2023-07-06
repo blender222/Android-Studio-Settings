@@ -107,7 +107,9 @@
     <mouse-shortcut keystroke="button2" />
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
-  <action id="GotoNextError" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
   <action id="GotoTest" />
   <action id="ImplementMethods" />
   <action id="KotlinShellExecute" />
