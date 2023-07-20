@@ -69,12 +69,24 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
+  <action id="EditorDeleteToWordEndInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="alt delete" />
+  </action>
+  <action id="EditorDeleteToWordStartInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
   <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="alt left" />
   </action>
   <action id="EditorSelectWord" />
   <action id="EditorSplitLine" />
@@ -165,6 +177,7 @@
     <keyboard-shortcut first-keystroke="alt w" second-keystroke="alt e" />
   </action>
   <action id="RunInspection" />
+  <action id="SafeDelete" />
   <action id="SaveAll" />
   <action id="SaveDocument">
     <keyboard-shortcut first-keystroke="ctrl s" />
