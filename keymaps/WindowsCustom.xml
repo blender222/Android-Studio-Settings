@@ -65,8 +65,13 @@
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCompleteStatement" />
   <action id="EditorContextInfo" />
+  <action id="EditorCreateRectangularSelection">
+    <mouse-shortcut keystroke="shift alt button2" />
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="shift alt button1" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt q" />
