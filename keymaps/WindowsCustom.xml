@@ -157,11 +157,15 @@
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt d" />
   </action>
-  <action id="NextEditorTab" />
+  <action id="NextEditorTab">
+    <keyboard-shortcut first-keystroke="shift alt x" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
-  <action id="PreviousEditorTab" />
+  <action id="PreviousEditorTab">
+    <keyboard-shortcut first-keystroke="shift alt z" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt z" />
   </action>
@@ -251,6 +255,7 @@
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
+  <action id="context.clear" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
   <action id="osmedile.intellij.stringmanip.ToLowerCaseAction">
     <keyboard-shortcut first-keystroke="alt u" second-keystroke="alt j" />
