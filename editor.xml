@@ -27,12 +27,13 @@
     <option name="disabledHintProviderIds">
       <set>
         <option value="Groovy.groovy.variable.type.hints" />
+        <option value="JAVA.java.implicit.types" />
         <option value="kotlin.kotlin.call.chains.hints" />
         <option value="kotlin.kotlin.lambdas.hints" />
         <option value="kotlin.kotlin.references.types.hints" />
       </set>
     </option>
-    <option name="lastViewedProviderKeyId" value="Groovy.groovy.parameters.hints.type.parameter.list" />
+    <option name="lastViewedProviderKeyId" value="kotlin.parameter.hints.old" />
     <settingsMapElement>
       <kotlin.kotlin.values.hints>
         <Settings>
