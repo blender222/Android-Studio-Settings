@@ -4,7 +4,7 @@
       <GlobalState>
         <option name="preferredComposableEditorMode" value="CODE" />
         <option name="preferredDrawableEditorMode" value="SPLIT" />
-        <option name="preferredEditorMode" value="CODE" />
+        <option name="preferredEditorMode" value="DESIGN" />
         <option name="preferredKotlinEditorMode" value="CODE" />
       </GlobalState>
     </option>
