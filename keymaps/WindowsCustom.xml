@@ -144,6 +144,9 @@
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
   <action id="GotoTest" />
   <action id="ImplementMethods" />
   <action id="KotlinShellExecute" />
@@ -265,6 +268,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
   <action id="context.clear" />
+  <action id="hg4idea.QFold" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
   <action id="osmedile.intellij.stringmanip.ToLowerCaseAction">
     <keyboard-shortcut first-keystroke="alt u" second-keystroke="alt j" />
