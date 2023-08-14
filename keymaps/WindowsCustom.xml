@@ -111,6 +111,7 @@
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
+  <action id="EditorToggleInsertState" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl alt left" />
   </action>
