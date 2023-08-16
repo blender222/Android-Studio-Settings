@@ -210,10 +210,6 @@
   </action>
   <action id="RunInspection" />
   <action id="SafeDelete" />
-  <action id="SaveAll" />
-  <action id="SaveDocument">
-    <keyboard-shortcut first-keystroke="ctrl s" />
-  </action>
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="alt f1" />
     <keyboard-shortcut first-keystroke="alt back_quote" />
