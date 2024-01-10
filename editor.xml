@@ -18,6 +18,14 @@
       </map>
     </option>
   </component>
+  <component name="DeclarativeInlayHintsSettings">
+    <option name="providerIdToEnabled">
+      <map>
+        <entry key="java.implicit.types" value="false" />
+        <entry key="java.method.chains" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
@@ -40,7 +48,7 @@
         <option value="kotlin.kotlin.references.types.hints" />
       </set>
     </option>
-    <option name="lastViewedProviderKeyId" value="kotlin.parameter.hints.old" />
+    <option name="lastViewedProviderKeyId" value="" />
     <settingsMapElement>
       <kotlin.kotlin.values.hints>
         <Settings>
