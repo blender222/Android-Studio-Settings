@@ -1,0 +1,15 @@
+<templateSet group="Kotlin">
+  <template name="try" value="try {&#10;    $END$&#10;} catch (e: Exception) {&#10;}" description="try-catch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sf" value="suspend fun $NAME$()$TYPE$ {&#10;    $END$&#10;}" description="suspend fun" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="&quot;name&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>
