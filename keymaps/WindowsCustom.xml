@@ -105,6 +105,15 @@
   <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
+  <action id="EditorSearchSession.ToggleMatchCase">
+    <keyboard-shortcut first-keystroke="shift alt q" />
+  </action>
+  <action id="EditorSearchSession.ToggleRegex">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
+  <action id="EditorSearchSession.ToggleWholeWordsOnlyAction">
+    <keyboard-shortcut first-keystroke="shift alt w" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl alt right" />
   </action>
