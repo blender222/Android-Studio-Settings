@@ -1,6 +1,7 @@
 <templateSet group="Kotlin">
   <template name="try" value="try {&#10;    $END$&#10;} catch (e: Exception) {&#10;}" description="try-catch" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="KOTLIN_EXPRESSION" value="true" />
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
