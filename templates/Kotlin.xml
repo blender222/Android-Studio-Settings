@@ -5,14 +5,6 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="sf" value="suspend fun $NAME$()$TYPE$ {&#10;    $END$&#10;}" description="suspend fun" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="&quot;name&quot;" defaultValue="" alwaysStopAt="true" />
-    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="KOTLIN_CLASS" value="true" />
-      <option name="KOTLIN_TOPLEVEL" value="true" />
-    </context>
-  </template>
   <template name="if" value="if ($CONDITION$) {&#10;    $END$&#10;}" description="Inserts 'if null' expression" toReformat="true" toShortenFQNames="true">
     <variable name="CONDITION" expression="" defaultValue="&quot;true&quot;" alwaysStopAt="true" />
     <context>
@@ -26,41 +18,18 @@
       <option name="KOTLIN_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="sfn" value="suspend fun $NAME$($PARAMS$)$TYPE$" description="suspend fun" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="&quot;name&quot;" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="KOTLIN_CLASS" value="true" />
-      <option name="KOTLIN_TOPLEVEL" value="true" />
-    </context>
-  </template>
-  <template name="fun" value="fun $NAME$() {&#10;    $END$&#10;}" description="Function with no parameters" toReformat="true" toShortenFQNames="true">
+  <template name="fu" value="fun $NAME$($PARAM1$) {&#10;    $END$&#10;}" description="Function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_CLASS" value="true" />
       <option name="KOTLIN_STATEMENT" value="true" />
       <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="fun1" value="fun $NAME$($PARAM1$: $PARAM1TYPE$)$RETURN$ {&#10;    $END$&#10;}" description="Function with one parameter" toReformat="false" toShortenFQNames="true">
+  <template name="fr" value="fun $NAME$($PARAM1$): $RETURN$ {&#10;    $END$&#10;}" description="Function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
-    <variable name="PARAM1" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
-    <variable name="PARAM1TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
-    <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="fun2" value="fun $NAME$($PARAM1$: $PARAM1TYPE$, $PARAM2$ : $PARAM2TYPE$)$RETURN$ {&#10;    $END$&#10;}" description="Function with two parameters" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
-    <variable name="PARAM1" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
-    <variable name="PARAM1TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
-    <variable name="PARAM2" expression="" defaultValue="&quot;y&quot;" alwaysStopAt="true" />
-    <variable name="PARAM2TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
-    <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="funr" value="fun $NAME$(): $RETURN$ {&#10;    $END$&#10;}" description="Function with no parameters" toReformat="true" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_CLASS" value="true" />
@@ -68,10 +37,56 @@
       <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="fun1r" value="fun $NAME$($PARAM1$: $PARAM1TYPE$): $RETURN$ {&#10;    $END$&#10;}" description="Function with one parameter" toReformat="false" toShortenFQNames="true">
+  <template name="ful" value="fun $NAME$($PARAM1$)" description="Function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
-    <variable name="PARAM1" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
-    <variable name="PARAM1TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="frl" value="fun $NAME$($PARAM1$): $RETURN$" description="Function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="sfu" value="suspend fun $NAME$($PARAM1$) {&#10;    $END$&#10;}" description="Function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="sful" value="suspend fun $NAME$($PARAM1$)" description="Function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="sfr" value="suspend fun $NAME$($PARAM1$): $RETURN$ {&#10;    $END$&#10;}" description="Function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="sfrl" value="suspend fun $NAME$($PARAM1$): $RETURN$" description="Function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_CLASS" value="true" />

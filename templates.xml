@@ -122,6 +122,14 @@
           <option name="groupName" value="Kotlin" />
           <option name="key" value="fun0" />
         </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Kotlin" />
+          <option name="key" value="fun1" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Kotlin" />
+          <option name="key" value="fun2" />
+        </TemplateKey>
       </list>
     </option>
   </component>
