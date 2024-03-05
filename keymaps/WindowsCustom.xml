@@ -156,7 +156,7 @@
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="alt n" />
+    <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="GotoTest" />
   <action id="ImplementMethods" />
