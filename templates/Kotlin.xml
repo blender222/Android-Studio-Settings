@@ -94,7 +94,7 @@
       <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="arrp" value="($PARAM$) -&gt; $RETURN$" toReformat="false" toShortenFQNames="true">
+  <template name="arrp" value="($PARAM$) -&gt; $RETURN$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
     <context>
