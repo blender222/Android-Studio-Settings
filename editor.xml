@@ -40,6 +40,7 @@
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
     <option name="IS_ANIMATED_SCROLLING" value="false" />
+    <option name="KEEP_TRAILING_SPACE_ON_CARET_LINE" value="false" />
   </component>
   <component name="InlayHintsSettings">
     <option name="disabledHintProviderIds">

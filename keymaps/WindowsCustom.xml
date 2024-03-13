@@ -289,4 +289,7 @@
   <action id="osmedile.intellij.stringmanip.ToUpperCaseAction">
     <keyboard-shortcut first-keystroke="alt u" second-keystroke="alt u" />
   </action>
+  <action id="osmedile.intellij.stringmanip.TrimTrailingAction">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
 </keymap>
