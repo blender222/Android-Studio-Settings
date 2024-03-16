@@ -101,7 +101,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="lambda" value="{ $BODY$ }$END$" toReformat="false" toShortenFQNames="true">
+  <template name="lambda" value="{ $BODY$ }$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
