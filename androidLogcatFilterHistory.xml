@@ -1,11 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine tag:Lifecycle" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:mine package:com.ashtar.bus " />
         <option value="package:mine package:com.ashtar.bus" />
-        <option value="package:mine " />
         <option value="package:mine System" />
         <option value="package:mine" />
         <option value="package:mine level:error " />
