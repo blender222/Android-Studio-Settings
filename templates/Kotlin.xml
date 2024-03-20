@@ -107,4 +107,15 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="when" value="when ($CONDITION$) {&#10;    $BRANCH1$ -&gt; {$BODY1$}&#10;    $BRANCH2$ -&gt; {$BODY2$}&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="BRANCH1" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="BODY1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BRANCH2" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
+    <variable name="BODY2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
