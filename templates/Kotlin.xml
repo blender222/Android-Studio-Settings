@@ -107,7 +107,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="when" value="when ($CONDITION$) {&#10;    $BRANCH1$ -&gt; {$BODY1$}&#10;    $BRANCH2$ -&gt; {$BODY2$}&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="when" value="when ($CONDITION$) {&#10;    $BRANCH1$ -&gt; {$BODY1$}&#10;    $BRANCH2$ -&gt; {$BODY2$}&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CONDITION" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
     <variable name="BRANCH1" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
     <variable name="BODY1" expression="" defaultValue="" alwaysStopAt="true" />
