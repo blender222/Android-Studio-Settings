@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine tag:System.out" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine tag:System.out" />
         <option value="package:mine " />
         <option value="package:mine  tag:Lifecycle" />
         <option value="package:mine package:com.ashtar.bus " />
@@ -21,7 +23,6 @@
         <option value="stout" />
         <option value="System.out" />
         <option value="out" />
-        <option value="system" />
       </list>
     </option>
   </component>
