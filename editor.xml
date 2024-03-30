@@ -20,6 +20,11 @@
         <entry key="vcs.code.vision" value="Default" />
       </map>
     </option>
+    <option name="disabledCodeVisionProviderIds">
+      <set>
+        <option value="vcs.code.vision" />
+      </set>
+    </option>
   </component>
   <component name="DeclarativeInlayHintsSettings">
     <option name="providerIdToEnabled">
@@ -52,7 +57,7 @@
         <option value="kotlin.kotlin.references.types.hints" />
       </set>
     </option>
-    <option name="lastViewedProviderKeyId" value="" />
+    <option name="lastViewedProviderKeyId" value=".vcs.code.vision" />
     <settingsMapElement>
       <kotlin.kotlin.values.hints>
         <Settings>
