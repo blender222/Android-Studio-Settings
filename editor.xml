@@ -53,7 +53,6 @@
         <option value="Groovy.groovy.variable.type.hints" />
         <option value="JAVA.java.implicit.types" />
         <option value="kotlin.kotlin.call.chains.hints" />
-        <option value="kotlin.kotlin.lambdas.hints" />
         <option value="kotlin.kotlin.references.types.hints" />
       </set>
     </option>
@@ -67,7 +66,6 @@
       <kotlin.kotlin.lambdas.hints>
         <Settings>
           <option name="implicitReceiversAndParams" value="false" />
-          <option name="returnExpressions" value="false" />
         </Settings>
       </kotlin.kotlin.lambdas.hints>
     </settingsMapElement>
