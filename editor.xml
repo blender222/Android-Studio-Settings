@@ -56,7 +56,7 @@
         <option value="kotlin.kotlin.references.types.hints" />
       </set>
     </option>
-    <option name="lastViewedProviderKeyId" value=".vcs.code.vision" />
+    <option name="lastViewedProviderKeyId" value="kotlin.kotlin.lambdas.hints.hints.lambda.return" />
     <settingsMapElement>
       <kotlin.kotlin.values.hints>
         <Settings>
@@ -66,6 +66,7 @@
       <kotlin.kotlin.lambdas.hints>
         <Settings>
           <option name="implicitReceiversAndParams" value="false" />
+          <option name="returnExpressions" value="false" />
         </Settings>
       </kotlin.kotlin.lambdas.hints>
     </settingsMapElement>
