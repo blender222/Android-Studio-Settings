@@ -2,9 +2,9 @@
   <component name="StringManipulationState">
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.sort.SortAction" />
-        <option name="description" value="Universal lines sort with all kinds of features" />
-        <option name="textWithMnemonic" value="Sort Lines..." />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.filter.TrimTrailingAction" />
+        <option name="description" value="Trim trailing whitespaces from selected text" />
+        <option name="textWithMnemonic" value="Trim Trailing" />
       </UniversalActionModel>
     </option>
   </component>
