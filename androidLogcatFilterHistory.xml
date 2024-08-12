@@ -3,6 +3,7 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine " />
+        <option value="package:mine System" />
         <option value="package:mine worker" />
         <option value="package:mine  tag:System.out" />
         <option value="package:mine tag:System.out" />
@@ -12,7 +13,6 @@
         <option value="package:mine  tag:Lifecycle" />
         <option value="package:mine package:com.ashtar.bus " />
         <option value="package:mine package:com.ashtar.bus" />
-        <option value="package:mine System" />
         <option value="package:mine" />
         <option value="package:mine level:error " />
         <option value="package:mine tag:MainActivity " />
