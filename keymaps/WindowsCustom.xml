@@ -6,6 +6,9 @@
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Edit" />
   <action id="Arrangement.Rule.Group.Condition.Move.Down" />
